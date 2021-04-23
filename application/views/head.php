@@ -22,5 +22,7 @@
     <link href="<?= base_url('assets/css/flaticon.css');?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/icomoon.css');?>" rel="stylesheet">
     <link href="<?= base_url('assets/css/style.css');?>" rel="stylesheet">
+    <link href="<?= base_url('assets/images/bg_1.jpg');?>" rel="icon" >
+    
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">

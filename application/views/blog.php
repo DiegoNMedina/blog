@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Diego Medina</a>
+	      <a class="navbar-brand" href="index.html"><?php echo $name ?></a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -29,9 +29,9 @@
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
 		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Diego Medina</span></h1>
-			            <h2 class="mb-4">A Freelance Web Developer</h2>
-			            <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+			            <h1 class="mb-4 mt-3">I'm <span><?php echo $name ?></span></h1>
+			            <h2 class="mb-4">Web Developer</h2>
+			            <p><a href="#services-section" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#resume-section" class="btn btn-white btn-outline-white py-3 px-4">Resume</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -48,8 +48,8 @@
 		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
 		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm a <span>web designer</span> based in Mexico</h1>
-			            <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+			            <h1 class="mb-4 mt-3">I'm a <span>web developer</span> based in Mexico</h1>
+			            <p><a href="#services-section" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#resume-section" class="btn btn-white btn-outline-white py-3 px-4">Resume</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -75,12 +75,12 @@
 		            <h2 class="mb-4">About Me</h2>
 		            <p>I am a lover of technology, I like web development and video games.</p>
 		            <ul class="about-info mt-4 px-md-0 px-2">
-		            	<li class="d-flex"><span>Name:</span> <span>Diego Medina</span></li>
-		            	<li class="d-flex"><span>Date of birth:</span> <span>September 02, 1999</span></li>
-		            	<li class="d-flex"><span>Address:</span> <span>Puebla, México</span></li>
-		            	<li class="d-flex"><span>Zip code:</span> <span>72310</span></li>
-		            	<li class="d-flex"><span>Email:</span> <span>dieego.meedina@outlook.es</span></li>
-		            	<li class="d-flex"><span>Phone: </span> <span>+52-221-168-5660</span></li>
+		            	<li class="d-flex"><span>Name:</span> <span><?php echo $name ?></span></li>
+		            	<li class="d-flex"><span>Date of birth:</span> <span><?php echo $birthday ?></span></li>
+		            	<li class="d-flex"><span>Address:</span> <span><?php echo $city ?></span></li>
+		            	<li class="d-flex"><span>Zip code:</span> <span><?php echo $zip_code ?></span></li>
+		            	<li class="d-flex"><span>Email:</span> <span><?php echo $email ?></span></li>
+		            	<li class="d-flex"><span>Phone: </span> <span><?php echo $phone ?></span></li>
 		            </ul>
 		          </div>
 		        </div>
@@ -118,7 +118,7 @@
     			</div>
     			<div class="col-md-6">
     				<div class="resume-wrap ftco-animate">
-    					<span class="date">2014-2015</span>
+    					<span class="date">2019-2021</span>
     					<h2>Information and communication technology engineer</h2>
     					<span class="position">Technological University of Puebla</span>
     					<p class="mt-4"></p>
@@ -134,7 +134,7 @@
           <div class="col-md-12 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Services</h1>
             <h2 class="mb-4">Services</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            <p>I like software development, but my specialty is web development.</p>
           </div>
         </div>
     		<div class="row">
@@ -154,7 +154,7 @@
 								<i class="flaticon-analysis"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5">App Development</h3>
+								<h3 class="mb-5">App Developing</h3>
 							</div>
 						</a>
 					</div>
@@ -164,7 +164,7 @@
 								<i class="flaticon-ideas"></i>
 							</span>
 							<div class="desc">
-								<h3 class="mb-5">Web Development</h3>
+								<h3 class="mb-5">Web Developer</h3>
 							</div>
 						</a>
 					</div>
@@ -197,8 +197,8 @@
 							<h3>jQuery</h3>
 							<div class="progress">
 							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-							    <span>80%</span>
+							  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+							    <span>70%</span>
 							  	</div>
 							</div>
 						</div>
@@ -247,6 +247,28 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>C#</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							    <span>90%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Java</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+							    <span>80%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -281,7 +303,7 @@
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18">
               <div class="text">
-                <strong class="number" data-number="600">0</strong>
+                <strong class="number" data-number="2600">0</strong>
                 <span>Cups of coffee</span>
               </div>
             </div>
@@ -295,7 +317,7 @@
 				<div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
 						<h2>I'm <span>Available</span> for freelancing</h2>
-						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						<p class="white">Let's build the unimaginable with a little code.</p>
 						<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Hire me</a></p>
 					</div>
 				</div>
@@ -319,7 +341,7 @@
           			<span class="icon-map-signs"></span>
           		</div>
           		<h3 class="mb-4">Address</h3>
-	            <p>Puebla, Mexico</p>
+	            <p><?php echo $city ?></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -328,7 +350,7 @@
           			<span class="icon-phone2"></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://2211685660">+52 221 168 5660</a></p>
+	            <p><a href="tel://<?php echo $phone ?>"><?php echo $phone ?></a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -337,7 +359,7 @@
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:dieego.meedina@outlook.es">dieego.meedina@outlook.es</a></p>
+	            <p><a href="mailto:<?php echo $email ?>"><?php echo $email ?></a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -346,7 +368,7 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Website</h3>
-	            <p><a href="#">diegomedina.ml</a></p>
+	            <p><a href="#"><?php echo $website ?></a></p>
 	          </div>
           </div>
         </div>
@@ -394,9 +416,9 @@
             	<h2 class="ftco-heading-2">Have a Questions?</h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Puebla, Mexico</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+52 221 168 5660</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">dieego.meedina@outlook.es</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text"><?php echo $city ?></span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text"><?php echo $phone ?></span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text"><?php echo $email ?></span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -406,7 +428,7 @@
           <div class="col-md-12 text-center">
 
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Diego Medina</a>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <?php echo $name ?></a>
   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           </div>
         </div>
