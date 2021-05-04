@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-xl-12">
                 <div class="text text-center">
-                    <h3>Contact me to produce music :)</h3>
-                    <a class="boxed-btn3" href="tel://<?php echo $mphone ?>">Contact Me</a>
+                    <h3>CONTACT ME TO PRODUCE MUSIC :)</h3>
+                    <a class="boxed-btn3" href="tel://<?php echo $mphone ?>">Call me</a>
                 </div>
             </div>
         </div>

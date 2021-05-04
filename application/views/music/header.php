@@ -15,9 +15,10 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="<?php echo base_url('music/index'); ?>">home</a></li>
-                                        <li><a href="<?php echo base_url('music/about'); ?>">About</a></li>
-                                        <li><a href="<?php echo base_url('music/tracks'); ?>">Tracks</a></li>
+                                        <li><a class="active" href="<?php echo base_url('music'); ?>">HOME</a></li>
+                                        <li><a href="<?php echo base_url('music/about'); ?>">ABOUT</a></li>
+                                        <li><a href="<?php echo base_url('music/tracks'); ?>">TRACKS</a></li>
+                                        <li><a href="<?php echo base_url('blog'); ?>">DEV</a></li>
                                     </ul>
                                 </nav>
                             </div>

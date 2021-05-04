@@ -6,7 +6,7 @@
                 <div class="col-xl-6 col-md-6">
                     <div class="footer_widget">
                         <h3 class="footer_title">
-                            Services
+                            SERVICES
                         </h3>
                         <div class="subscribe-from">
                             <form action="#">
@@ -20,7 +20,7 @@
                 <div class="col-xl-5 col-md-5 offset-xl-1">
                     <div class="footer_widget">
                         <h3 class="footer_title">
-                            Contact Me
+                            CONTACT ME
                         </h3>
                         <ul>
                             <!-- <li><a href="#"><?php echo $memail ?>
@@ -72,9 +72,10 @@
                 <div class="col-xl-5 col-md-6">
                     <div class="footer_links">
                         <ul>
-                            <li><a href="<?php echo base_url('music/index'); ?>">home</a></li>
-                            <li><a href="<?php echo base_url('music/about'); ?>">about</a></li>
-                            <li><a href="<?php echo base_url('music/tracks'); ?>">tracks</a></li>
+                            <li><a href="<?php echo base_url('music'); ?>">HOME |</a></li>
+                            <li><a href="<?php echo base_url('music/about'); ?>">ABOUT |</a></li>
+                            <li><a href="<?php echo base_url('music/tracks'); ?>">TRACKS |</a></li>
+                            <li><a href="<?php echo base_url('blog'); ?>">DEV |</a></li>
                         </ul>
                     </div>
                 </div>
