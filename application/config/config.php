@@ -51,10 +51,23 @@ $config['compress_output'] = FALSE;
 $config['time_reference'] = 'local';
 $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
+$config['author'] = 'Diego Medina';
 $config['phone'] = '+52 221 168 5660';
 $config['city'] = 'Puebla, Mexico';
 $config['zip_code'] = 72310;
-$config['email'] = 'dieego.meedina@outlook.es';
+$config['email'] = 'contact@diegomedina.ml';
 $config['website'] = 'diegomedina.ml';
 $config['birthday'] = 'September 02, 1999';
 $config['name'] = 'Diego Medina';
+/*MUSIC*/
+$config['mphone'] = '+52 222 931 9567';
+$config['mcity'] = 'Puebla, Mexico';
+$config['mzip_code'] = 72310;
+$config['memail'] = 'migueljc99@hotmail.com';
+$config['musicemail'] = 'music@diegomedina.ml';
+$config['mwebsite'] = 'diegomedina.ml/music';
+$config['mbirthday'] = 'February 11, 1999';
+$config['mname'] = 'Miguel Juárez';
+
+/*EJELECTRIC*/
+

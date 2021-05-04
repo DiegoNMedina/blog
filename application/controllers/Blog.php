@@ -13,6 +13,7 @@ class Blog extends CI_Controller {
 		$config['website'] = $this->config->item('website');
 		$config['birthday'] = $this->config->item('birthday');
 		$config['name'] = $this->config->item('name');
+		
         $this->load->view('head');
 		$this->load->view('blog', $config);
         $this->load->view('footer');
