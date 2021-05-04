@@ -13,6 +13,7 @@
 				<li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
 				<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
 				<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				<li class="nav-item"><a href="<?php echo base_url('music'); ?>" class="nav-link"><span>Music</span></a></li>
 			</ul>
 		</div>
 	</div>
@@ -406,6 +407,7 @@
 						<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
 						<li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
 						<li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+						<li><a href="<?php echo base_url('music'); ?>"><span class="icon-long-arrow-right mr-2"></span>Music</a></li>
 					</ul>
 				</div>
 			</div>
