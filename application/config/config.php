@@ -69,5 +69,19 @@ $config['mwebsite'] = 'diegomedina.ml/music';
 $config['mbirthday'] = 'February 11, 1999';
 $config['mname'] = 'Miguel Juárez';
 
+
+/*THERAPHY*/
+$config['tphone'] = '+52 222 438 4592';
+$config['tcity'] = 'Servicio a domicilio en todo Puebla';
+$config['tzip_code'] = 72310;
+$config['temail'] = 'ltfandreahm@hotmail.com';
+$config['theraphymail'] = 'theraphy@diegomedina.ml';
+$config['twebsite'] = 'diegomedina.ml/theraphy';
+$config['tbirthday'] = 'Abril de 1992';
+$config['tname'] = 'LTF. Andrea Hernández';
+$config['tfacebook'] = 'https://www.facebook.com/LTF-Andrea-Hern%C3%A1ndez-Medina-Terapia-F%C3%ADsica-y-Rehabilitaci%C3%B3n-112948146999862';
+$config['tinsta'] = 'https://www.instagram.com/ltf.andreamedina/';
+
+
 /*EJELECTRIC*/
 

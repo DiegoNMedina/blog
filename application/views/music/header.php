@@ -18,7 +18,7 @@
                                         <li><a class="active" href="<?php echo base_url('music'); ?>">HOME</a></li>
                                         <li><a href="<?php echo base_url('music/about'); ?>">ABOUT</a></li>
                                         <li><a href="<?php echo base_url('music/tracks'); ?>">TRACKS</a></li>
-                                        <li><a href="<?php echo base_url('blog'); ?>">DEV</a></li>
+                                        <li><a href="<?php echo base_url(''); ?>">DEV</a></li>
                                     </ul>
                                 </nav>
                             </div>
