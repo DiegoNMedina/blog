@@ -34,7 +34,8 @@
                         <span class="icon icon-clock-o mr-3"></span>
                         <div class="text">
                             <strong class="d-block heading">Horarios</strong>
-                            <span class="excerpt">Lu-Do 7:AM - 5PM</span>
+                            <span class="excerpt">Lu-Vi 9:00AM - 7:00PM</span>
+                            <span class="excerpt">Sa 9:00AM - 2:00PM</span>
                         </div>
                     </div>
                 </div>

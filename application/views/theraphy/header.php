@@ -18,6 +18,7 @@
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
                             <li><a href="<?= base_url('LTF_AndreaH') ?>"><span>Inicio</span></a></li>
+                            <li><a href="<?= base_url('LTF_AndreaH/About') ?>"><span>About</span></a></li>
                             <li class="has-children">
                                 <a href="services.html"><span>Servicios</span></a>
                                 <ul class="dropdown arrow-top">
@@ -34,7 +35,6 @@
                                     </li> -->
                                 </ul>
                             </li>
-                            <li><a href="<?= base_url('LTF_AndreaH/About') ?>"><span>About</span></a></li>
                             <li><a href="tel://<?php echo $tphone ?>"><span>Contacto</span></a></li>
                         </ul>
                     </nav>

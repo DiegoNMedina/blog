@@ -36,11 +36,10 @@
             </div>
             <div class="col-lg-3">
                 <h2 class="footer-heading mb-4">Suscríbete</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 <form action="#" method="post" class="subscription">
                     <div class="input-group mb-3  d-flex align-items-stretch">
-                        <input type="text" class="form-control bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                        <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
+                        <input type="text" class="form-control bg-transparent" placeholder="Ingresa tu email" aria-label="Enter Email" aria-describedby="button-addon2">
+                        <button class="btn btn-primary text-white" type="button" id="button-addon2">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -51,7 +50,7 @@
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright &copy;<script>
                         document.write(new Date().getFullYear());
-                    </script> All rights reserved | <?= $name ?> </a>
+                    </script> All rights reserved | <a href="https://diegomedina.ml/"> <?= $name ?> </a>
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </p>
             </div>

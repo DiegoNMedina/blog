@@ -25,13 +25,13 @@ class Theraphy extends CI_Controller
         $this->load->view('theraphy/types', $config);
         $this->load->view('theraphy/extra', $config);
         $this->load->view('theraphy/offers', $config);
-        $this->load->view('theraphy/customers', $config);
+        /* $this->load->view('theraphy/customers', $config); */
         $this->load->view('theraphy/discount', $config);
         $this->load->view('theraphy/footer', $config);
         $this->load->view('theraphy/libraries');
     }
 
-    public function about(){
+    public function About(){
         $config['tphone'] = $this->config->item('tphone');
         $config['tcity'] = $this->config->item('tcity');
         $config['tzip_code'] = $this->config->item('tzip_code');
