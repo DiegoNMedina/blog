@@ -4,7 +4,7 @@
             <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
                 <div class="block-18">
                     <div class="text">
-                        <strong class="number" data-number="26000">0</strong>
+                        <strong class="number" data-number="56000">0</strong>
                         <span>Lines Of Code</span>
                     </div>
                 </div>
@@ -12,7 +12,7 @@
             <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
                 <div class="block-18">
                     <div class="text">
-                        <strong class="number" data-number="10">0</strong>
+                        <strong class="number" data-number="7">0</strong>
                         <span>Complete Projects</span>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
             <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
                 <div class="block-18">
                     <div class="text">
-                        <strong class="number" data-number="10">0</strong>
+                        <strong class="number" data-number="7">0</strong>
                         <span>Happy Customers</span>
                     </div>
                 </div>

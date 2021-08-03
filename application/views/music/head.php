@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Music / Miguel J</title>
     <meta name="author" content="Miguel Juárez">
-    <meta name="description" content="Hello! My name is Miguel Juarez and I am a music producer">
+    <meta name="description" content="Hello! My name is Miguel Juarez and I am a musical producer.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->

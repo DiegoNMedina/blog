@@ -8,6 +8,10 @@
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                         <li class="ftco-animate"><a href="https://www.facebook.com/TroublemnSBM"><span class="icon-facebook"></span></a></li>
                         <li class="ftco-animate"><a href="https://www.instagram.com/thatguydiegom/?hl=es-la"><span class="icon-instagram"></span></a></li>
+                        <li class="ftco-animate"><a href="https://github.com/DiegoNMedina"><span class="icon-github"></span></a></li>
+                        <li class="ftco-animate"><a href="https://twitter.com/thatguydiegom"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.linkedin.com/in/diego-nu%C3%B1ez-medina-9aa79920b/"><span class="icon-linkedin"></span></a></li>
+                        <li class="ftco-animate"><a href="https://twitter.com/thatguydiegom"><span class="icon-youtube"></span></a></li>
                     </ul>
                 </div>
             </div>
@@ -29,7 +33,7 @@
                     <ul class="list-unstyled">
                         <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Web Design</a></li>
                         <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li>
-                        <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>App Developing</a></li>
+                        <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>App Development</a></li>
                         <li><a href="#services-section"><span class="icon-long-arrow-right mr-2"></span>Graphic Design</a></li>
                     </ul>
                 </div>

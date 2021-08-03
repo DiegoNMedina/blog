@@ -27,7 +27,7 @@
                 <div class="counter-wrap ftco-animate d-flex mt-md-3">
                     <div class="text">
                         <p class="mb-4">
-                            <span class="number" data-number="10">0</span>
+                            <span class="number" data-number="7">0</span>
                             <span>Project complete</span>
                         </p>
                         <!-- <p><a href="#" class="btn btn-primary py-3 px-3">Download CV</a></p> -->
